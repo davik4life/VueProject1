@@ -2,7 +2,7 @@
   <div class="view login" v-if="state.username === '' || state.username === null">
   <form class="login-form" @submit.prevent="Login">
   <div class="form-inner">
-  <h1>Login to Chat</h1>
+  <h1>Login to Chat</h1> 
   <label for="username">Username</label>
   <input type="text" v-model="inputUsername" placeholder="Please enter your username..."/>
   <input type="submit" value="Login" />
